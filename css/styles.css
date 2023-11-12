@@ -1,0 +1,9 @@
+.bg-left{
+    background: url(/assets/background.png) no-repeat;
+    background-size: cover; 
+    background-size: 100% 110%;
+}
+
+.bg-right{
+    background-color: #F2F2F2;
+}
