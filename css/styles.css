@@ -1,9 +1,40 @@
-.bg-left{
-    background: url(/assets/background.png) no-repeat;
-    background-size: cover; 
-    background-size: 100% 110%;
+.bg-left {
+  background-image: url(/assets/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
 }
 
-.bg-right{
-    background-color: #F2F2F2;
+.overlay{
+    transition: .5s ease;
 }
+
+.overlay:hover{
+  background-color: rgba(133, 153, 166, 0.8)!important;
+}
+
+.bg-right {
+  background-color: #f2f2f2;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+.modal-text > p{
+    margin: 0;
+}
+
+.modal-content{
+    background-color: #f2f2f2;
+}
+
+.modal-body{
+    padding-top: 0!important;
+}
+
+.modal-header{
+    border: none!important;
+    padding-bottom: 0!important;
+}
+
+
