@@ -2,7 +2,14 @@
   font-family: "Josefin Sans";
   src: url(../assets/fonts/JosefinSans-Regular.ttf)
 }
-
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;
+}
 .nav-link{
   color: #a79885!important;
 }
